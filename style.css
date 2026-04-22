@@ -1,32 +1,40 @@
-/* Reset some default browser styles */
+/* Reset */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* Body styling */
+/* Body */
 body {
     font-family: Arial, sans-serif;
     background-color: #f4f6f8;
     color: #333;
     line-height: 1.6;
-    padding: 40px;
 }
 
-/* Main heading */
+/* Main container */
+.container {
+    max-width: 850px;
+    margin: 40px auto;
+    padding: 30px;
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+/* Header */
 h1 {
     color: #2c3e50;
     margin-bottom: 5px;
 }
 
-/* Subtitle */
-p:first-of-type {
+.tagline {
     color: #555;
     margin-bottom: 20px;
 }
 
-/* Section headings */
+/* Sections */
 h2 {
     margin-top: 30px;
     margin-bottom: 10px;
@@ -35,15 +43,24 @@ h2 {
     padding-bottom: 5px;
 }
 
-/* Project titles */
-h3 {
-    margin-top: 15px;
-    color: #2c3e50;
+/* Projects */
+.project {
+    margin-bottom: 20px;
 }
 
-/* Paragraph spacing */
-p {
+.project h3 {
+    color: #2c3e50;
+    margin-bottom: 5px;
+}
+
+/* Lists */
+ul {
+    margin-left: 20px;
     margin-bottom: 10px;
+}
+
+li {
+    margin-bottom: 6px;
 }
 
 /* Links */
@@ -57,17 +74,7 @@ a:hover {
     text-decoration: underline;
 }
 
-/* List styling */
-ul {
-    margin-left: 20px;
-    margin-top: 10px;
-}
-
-li {
-    margin-bottom: 5px;
-}
-
-/* Horizontal line */
+/* Divider */
 hr {
     margin: 20px 0;
     border: none;
@@ -75,8 +82,7 @@ hr {
     background: #ddd;
 }
 
-/* Small hover effect for sections */
-h2:hover {
-    color: #0077cc;
-    transition: 0.2s;
+/* Skills list spacing */
+.skills li {
+    margin-bottom: 5px;
 }
