@@ -1,0 +1,82 @@
+/* Reset some default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f8;
+    color: #333;
+    line-height: 1.6;
+    padding: 40px;
+}
+
+/* Main heading */
+h1 {
+    color: #2c3e50;
+    margin-bottom: 5px;
+}
+
+/* Subtitle */
+p:first-of-type {
+    color: #555;
+    margin-bottom: 20px;
+}
+
+/* Section headings */
+h2 {
+    margin-top: 30px;
+    margin-bottom: 10px;
+    color: #34495e;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 5px;
+}
+
+/* Project titles */
+h3 {
+    margin-top: 15px;
+    color: #2c3e50;
+}
+
+/* Paragraph spacing */
+p {
+    margin-bottom: 10px;
+}
+
+/* Links */
+a {
+    color: #0077cc;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* List styling */
+ul {
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+li {
+    margin-bottom: 5px;
+}
+
+/* Horizontal line */
+hr {
+    margin: 20px 0;
+    border: none;
+    height: 1px;
+    background: #ddd;
+}
+
+/* Small hover effect for sections */
+h2:hover {
+    color: #0077cc;
+    transition: 0.2s;
+}
